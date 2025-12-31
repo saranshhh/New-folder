@@ -61,7 +61,7 @@ def fetch_and_clean():
     return df_gen, df_rvr
 
 def main():
-    # --- Top Header Section ---
+    # --- Top Header Section ----
     header_col, update_col = st.columns([3, 1.2])
     
     try:
